@@ -13,7 +13,9 @@ and summarizing the entire video and providing the important summary in points
 within 250 words. 
 
 IMPORTANT: Please provide the summary in the SAME LANGUAGE as the transcript text.
-Detect the language automatically and respond in that language."""
+Detect the language automatically and respond in that language.
+
+Please provide the summary of the text given here:  """
 
 # getting the transcript data from the youtube video
 def extract_transcript_details(youtube_video_url):
